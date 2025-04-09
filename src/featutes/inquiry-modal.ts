@@ -50,6 +50,8 @@ const initEnquiryModal = () => {
     const targetText = `${targetName} (Color: ${targetColor})`;
 
     targetInput.value = targetText;
+
+    targetInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 };
 
